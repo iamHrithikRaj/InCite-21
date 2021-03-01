@@ -205,15 +205,17 @@ body {
 .desc {
   font-family: Poppins;
   font-weight: 200;
+  line-height: 5px;
 }
 
 .desc p {
   margin-top: 0px;
 }
 
-button {
-  margin: 15px;
+.btn {
+  display: inline-block;
   font-family: Poppins;
+  margin-top: 10px;
   /* border: 1px solid black; */
   border-radius: 5px;
   padding: 16px 40px;
@@ -226,6 +228,8 @@ button {
 .img img {
   width: 640px;
 }
+
+
 
 .img {
   position: absolute;
@@ -454,5 +458,6 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
