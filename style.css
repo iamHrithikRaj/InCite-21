@@ -55,7 +55,7 @@ body {
   position: absolute;
   width: 0%;
   height: 100vh;
-  background: #272727;
+  background: #000;
   animation: go-left 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
   left: 0;
 }
@@ -184,6 +184,7 @@ body {
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 18px;
+  color: #000;
 }
 
 .content {
@@ -212,15 +213,14 @@ body {
   margin-top: 0px;
 }
 
-.btn {
-  display: inline-block;
-  font-family: Poppins;
+button {
   margin-top: 10px;
-  /* border: 1px solid black; */
+  font-family: Poppins;
   border-radius: 5px;
   padding: 16px 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-size: medium;
   background: #b08d74;
   color: #fff;
 }
@@ -228,8 +228,6 @@ body {
 .img img {
   width: 640px;
 }
-
-
 
 .img {
   position: absolute;
@@ -251,7 +249,7 @@ img {
   left: 0;
   width: 0%;
   height: 100%;
-  background: #272727;
+  background: #000;
   position: absolute;
   animation: rev-img 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   animation-delay: 6s;
@@ -424,7 +422,7 @@ img {
 
 .sponsor {
   padding-top: 150px;
-  background: #272727;
+  background: #000;
   height: 100vh;
 }
 
@@ -460,4 +458,3 @@ footer {
   align-items: center;
   color: #fff;
 }
-
