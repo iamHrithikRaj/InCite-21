@@ -3,6 +3,7 @@
 
 body {
   box-sizing: border-box;
+  font-family: Poppins;
 }
 
 main {
@@ -204,8 +205,8 @@ body {
 }
 
 .desc {
-  font-family: Poppins;
-  font-weight: 200;
+  
+  font-weight: 100;
   line-height: 5px;
 }
 
@@ -386,6 +387,7 @@ img {
 .project {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding: 12px;
+  font-family: Poppins;
   display: flex;
   align-items: center;
   justify-content: space-between;
